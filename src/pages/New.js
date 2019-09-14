@@ -17,7 +17,7 @@ class New extends Component {
         e.preventDefault();
 
         const data = new FormData();
-
+        
         data.append('image', this.state.image);
         data.append('author', this.state.author);
         data.append('place', this.state.place);
